@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator using html,css and js</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins',sans-serif;
+                box-sizing: border-box;
+            }
+            
+            
+            .calculator{
+                background:transparent;
+                padding: 20px;
+                border:1px solid #717377;
+                border-radius: 16px;
+                box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+                background-color: pink;
+            }
+            input{
+                border: none;
+                padding: 24px;
+               
+                width: 320px;
+                height: 60px;
+                border-radius: 10px;
+                box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+                background: transparent;
+                font-size: 40px;
+                columns:black;
+               text-align: right;
+              
+                
+                cursor: pointer;
+                margin: 10px;
+            }
+            input::placeholder{
+                color:black;
+                display: block;
+            border-color:black ;
+                
+            }
+           
+           button{
+            border: none;
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+            color: white;
+            border-radius: 50%;
+            background: transparent;
+           
+            font-size: 20px;
+            box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+            background-color: black;
+            
+           }
+           .equalbtn{
+            background-color: orange;
+            
+           }
+           .operator{
+            color: #6dee0a;
+            
+           }
+        </style>
+    </head>
+    <body>
+       
+            <div class="calculator">
+               
+                    
+                    <input type="text" placeholder="0" id="inputBox">
+                    <div>
+                    <button class="operator">AC</button>
+                    <button class="operator">DEL</button>
+                    <button class="operator">%</button>
+                     <button class="operator">/</button>
+             <div>
+                <div>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                     <button class="operator">*</button>
+             <div>
+                <div>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                     <button class="operator">-</button>
+             <div>
+                <div>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                     <button class="operator">+</button>
+             <div>
+                <div>
+                    <button>00</button>
+                    <button>0</button>
+                    <button>.</button>
+                     <button class="equalbtn">=</button>
+             <div>
+
+                </div>
+                <script src="script.js"></script>
+               
+                   
+    </body>
+</html>
